@@ -22,9 +22,10 @@
 		  <div class="d-flex">
               <div>
 		  		<div class="btn-group" role="group" aria-label="Basic example">
-		  		  <button type="button" class="btn btn-secondary"><a class="p-2" href="#">About Us</a></button>
-		  		  <button type="button" class="btn btn-secondary"><a class="p-2" href="#">Skills</a></button>
-		  		  <button type="button" class="btn btn-secondary"><a class="p-2" href="#">Contact Us</a></button>
+		  		  <button type="button" class="btn btn-secondary"><a class="p-2 text-dark font-weight-bold text-decoration-none" href="#abt-me">About Me</a></button>
+		  		  <button type="button" class="btn btn-secondary"><a class="p-2 text-dark font-weight-bold text-decoration-none" href="#skill-set">Skills</a></button>
+		  		  <button type="button" class="btn btn-secondary"><a class="p-2 text-dark font-weight-bold text-decoration-none" href="#proj">Projects</a></button>
+		  		  <button type="button" class="btn btn-secondary"><a class="p-2 text-light font-weight-bolder text-decoration-none" href="#ctc-me">Contact Me</a></button>
 		  		</div>
 		  	</div>
           </div>
@@ -52,15 +53,120 @@
 	<!-- End of Jumbotron -->
 
 	<!-- Start of About Us -->
+	<div class="container-fluid">
+		<div class="m-3 bg-dark bg-light text-light min-vh-100"> 
+			<h2 class="p-3" id="abt-me">About Me</h2>
+			<div>
+				<img class="mt-5 mt-md-0 rounded-circle " width="250" src="./images/me.jpg">
 
-
-
-
-
-
-
+				<p class="p-5">My name is Michael Oñeza Jr, aspiring Fullstack Developer. As a fresh grad I've decided to learn programming and I feel that I'm more into Developing Websites rather than On-Site Engineer. I'm hoping to be not be the best but the most reliable developer and I'm always keen to learn about programming and once that I've succeed this, I'll be always checking my knowledge up to date and always ready for the change and prepared to always adapt.</p>
+		</div>
+		<!--  Start of Button to Skills -->
+		<div class="p-0 m-0">
+			<button type="button" class="btn btn-info"><a href="#skill-sets" class="text-decoration-none text-light">Learn more</a></button>
+		</div>
+		<!--  Start of Button to Skills -->
+	</div>
 
 	<!-- End of About Us -->
+
+	<!-- Start Of Skills -->
+	<div class="container-fluid min-vh-100" id="skill-set">
+		<h2 class="m-5" id="skill-sets">Skills</h2>
+		<div class="col-md-6">
+		    <div class="row img-fluid">
+		    	<h4>Front-End</h4>
+		        <img width="150" src="images/html-5.png"/>
+		        <img width="150" src="images/css-3.png"/>
+		        <img width="150" src="images/bootstrap.png"/>
+		    </div>
+		    <div>	       
+		      <div class="row img-fluid">
+		    	<h4>Back-End</h4>
+		        <img width="150" src="images/mongo-db.png"/>
+		        <img width="150" src="images/node-js.png"/>
+		        <img width="150" src="images/postman.png"/>
+		    </div>
+		    <div class="row img-fluid">
+		    	<h4>Others</h4>
+		        <img width="150" src="images/gitlab.png"/>
+		        <img width="150" src="images/github.png"/>
+		        <img width="150" src="images/sublime-text.png"/>
+		    </div>
+		</div>
+	</div>
+
+	<!-- End Of Skills -->
+
+	<!-- Start of Projects -->
+
+		<h1 class="mt-5 pt-5 min-vh-100" id="proj">More Projects Coming Very Soon.</h1>
+
+	<!-- End of Projects -->
+
+ 	<!-- Start of Contact Me -->
+ 	<h2 id="ctc-me">Contact Me</h2>
+ 	<form class="bg-dark text-light mb-5 pb-5 col-xl-10 offset-xl-1 col-md-8 offset-md-2 col-sm-12">
+ 	  <div class="form-group">
+ 	    <label for="exampleFormControlInput1" class="mt-3">Name</label>
+ 	    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Your Name" required>
+ 	  </div>
+ 	   <div class="form-group">
+ 	    <label for="exampleFormControlInput1">Email</label>
+ 	    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+ 	  </div>
+ 	  <div class="form-group">
+ 	    <label for="exampleFormControlTextarea1">Message</label>
+ 	    <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+ 	  </div>
+ 	  <button type="submit" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Send Email</button>
+ 	</form>
+ 	<!-- Modal -->
+ 	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ 	  <div class="modal-dialog">
+ 	    <div class="modal-content">
+ 	      <div class="modal-header">
+ 	        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+ 	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+ 	          <span aria-hidden="true">&times;</span>
+ 	        </button>
+ 	      </div>
+ 	      <div class="modal-body">
+ 	        ...
+ 	      </div>
+ 	      <div class="modal-footer">
+ 	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+ 	        <button type="button" class="btn btn-primary">Save changes</button>
+ 	      </div>
+ 	    </div>
+ 	  </div>
+ 	</div>
+ 	<div>
+ 		<div>
+ 		    <div class="img-fluid">
+ 		    	<a href="https://www.facebook.com/michaelbajun/" target="_blank"><img class="p-2" width="50" src="images/facebook.png"/></a>
+ 		    	<a href="https://www.instagram.com/mykelangoot/" target="_blank"><img class="p-2" width="50" src="images/instagram.png"/></a>
+ 		    	<a href="https://www.linkedin.com/in/michael-o%C3%B1eza-jr-2941661bb/" target="_blank"><img class="p-2" width="50" src="images/linkedin.png"/></a>
+ 		        
+ 		        
+ 		        
+ 		    </div>
+ 	</div>
+
+
+ 	<!-- End of Contact Me -->
+
+ 	<!-- Start of Footer -->
+
+
+
+
+ 	<!-- End of Footer -->
+
+
+
+
+
 
 
 
